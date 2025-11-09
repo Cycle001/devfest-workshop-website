@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google DevFest Workshop - Chrome DevTools MCP Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">DevFest 2024</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-page="home">首页</a></li>
+                <li><a href="#" class="nav-link" data-page="gdg">GDG & DevFest</a></li>
+                <li><a href="#" class="nav-link" data-page="devtools">DevTools MCP</a></li>
+                <li><a href="#" class="nav-link" data-page="about">关于我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 首页 -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="glitch-container">
+                    <h1 class="glitch" data-text="Google DevFest Workshop">Google DevFest Workshop</h1>
+                    <p class="subtitle">Chrome DevTools MCP Server</p>
+                </div>
+                <div class="hero-info">
+                    <div class="info-card">
+                        <div class="card-icon">🔧</div>
+                        <h3>Workshop 主题</h3>
+                        <p>深入学习 Chrome DevTools MCP Server 的强大功能</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>活动类型</h3>
+                        <p>技术工作坊，实践与学习相结合</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">💡</div>
+                        <h3>学习目标</h3>
+                        <p>掌握 DevTools MCP 在开发中的应用</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2 class="section-title">Workshop 概述</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <h3>🎯 课程内容</h3>
+                        <ul>
+                            <li>Chrome DevTools MCP Server 介绍</li>
+                            <li>MCP 协议架构与实现</li>
+                            <li>实际项目开发演示</li>
+                            <li>最佳实践分享</li>
+                        </ul>
+                    </div>
+                    <div class="overview-card">
+                        <h3>📚 你将学到</h3>
+                        <ul>
+                            <li>如何集成 DevTools MCP</li>
+                            <li>调试技巧与工具使用</li>
+                            <li>性能优化方法</li>
+                            <li>与现有工具链集成</li>
+                        </ul>
+                    </div>
+                    <div class="overview-card">
+                        <h3>🎁 活动亮点</h3>
+                        <ul>
+                            <li>由经验丰富的讲师指导</li>
+                            <li>动手实践环节</li>
+                            <li>与其他开发者交流</li>
+                            <li>获取最新技术资源</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>准备好开始了吗？</h2>
+                <p>探索下面的页面，了解更多信息</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-btn primary" data-page="gdg">了解 GDG</a>
+                    <a href="#" class="cta-btn secondary" data-page="devtools">了解 DevTools MCP</a>
+                    <a href="#" class="cta-btn tertiary" data-page="about">认识讲师</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- GDG & DevFest 页面 -->
+        <section id="gdg" class="page">
+            <div class="page-header">
+                <h1>GDG & DevFest</h1>
+                <p class="page-subtitle">了解 Google Developer Groups 和年度盛会</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card large">
+                    <h2>什么是 GDG？</h2>
+                    <p>Google Developer Groups (GDG) 是由 Google 开发者社区组织和技术爱好者组成的全球性社区网络。GDG 旨在促进技术交流、知识分享和创新实践。</p>
+                    <p>每个 GDG 社区都是独立的，由当地的开发者志愿者组织和运营。社区定期举办技术分享会、工作坊、黑客马拉松等活动，为开发者提供学习和交流的平台。</p>
+                </div>
+
+                <div class="content-card">
+                    <h2>🌍 GDG 全球网络</h2>
+                    <ul class="feature-list">
+                        <li>覆盖全球 100+ 个城市</li>
+                        <li>超过 1,000 个活跃社区</li>
+                        <li>每年举办数千场活动</li>
+                        <li>连接数十万开发者</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h2>🎉 DevFest 是什么？</h2>
+                    <p>DevFest 是 GDG 社区举办的年度技术盛会，是全年最重要的活动之一。DevFest 通常包含：</p>
+                    <ul class="feature-list">
+                        <li>主题演讲和技术分享</li>
+                        <li>实践工作坊</li>
+                        <li>开发者交流与网络</li>
+                        <li>最新技术展示</li>
+                    </ul>
+                </div>
+
+                <div class="content-card large">
+                    <h2>🎯 DevFest 2024 主题</h2>
+                    <p>今年的 DevFest 聚焦于开发者工具和生产力提升，Chrome DevTools MCP Server 正是这一主题下的重要技术。</p>
+                    <p>通过本次 Workshop，我们深入探讨如何利用现代开发工具提高工作效率，优化开发流程，构建更好的开发者体验。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DevTools MCP 页面 -->
+        <section id="devtools" class="page">
+            <div class="page-header">
+                <h1>Chrome DevTools MCP Server</h1>
+                <p class="page-subtitle">现代化的浏览器开发工具集成方案</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card large">
+                    <h2>什么是 MCP？</h2>
+                    <p>Model Context Protocol (MCP) 是一种用于连接 AI 应用和外部数据源的开放协议。Chrome DevTools MCP Server 是将 Chrome 开发者工具的功能通过 MCP 协议暴露出来，使得 AI 应用和开发工具可以无缝集成。</p>
+                    <p>这使得开发者可以通过 AI 助手来操作浏览器、调试网页、分析性能，实现更智能的开发工作流。</p>
+                </div>
+
+                <div class="content-card">
+                    <h2>🔍 核心功能</h2>
+                    <ul class="feature-list">
+                        <li>浏览器自动化控制</li>
+                        <li>页面元素操作与检查</li>
+                        <li>网络请求监控</li>
+                        <li>性能分析工具</li>
+                        <li>控制台消息获取</li>
+                        <li>页面截图与快照</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <h2>💻 技术特性</h2>
+                    <ul class="feature-list">
+                        <li>基于 Chrome DevTools Protocol</li>
+                        <li>支持现代 Web 标准</li>
+                        <li>RESTful API 接口</li>
+                        <li>实时数据同步</li>
+                        <li>跨平台支持</li>
+                    </ul>
+                </div>
+
+                <div class="content-card large">
+                    <h2>🚀 应用场景</h2>
+                    <div class="scenario-list">
+                        <div class="scenario-item">
+                            <h3>自动化测试</h3>
+                            <p>通过 AI 助手自动化执行测试用例，提高测试效率</p>
+                        </div>
+                        <div class="scenario-item">
+                            <h3>性能优化</h3>
+                            <p>实时监控网页性能指标，快速定位性能瓶颈</p>
+                        </div>
+                        <div class="scenario-item">
+                            <h3>调试辅助</h3>
+                            <p>智能分析错误信息，提供调试建议</p>
+                        </div>
+                        <div class="scenario-item">
+                            <h3>网页交互</h3>
+                            <p>模拟用户操作，进行 E2E 测试</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h2>📖 学习资源</h2>
+                    <ul class="feature-list">
+                        <li>官方文档与 API 参考</li>
+                        <li>示例代码库</li>
+                        <li>社区最佳实践</li>
+                        <li>Workshop 实践案例</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我页面 -->
+        <section id="about" class="page">
+            <div class="page-header">
+                <h1>关于 CYCLE</h1>
+                <p class="page-subtitle">Workshop 讲师介绍</p>
+            </div>
+
+            <div class="profile-section">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <div class="avatar-circle">C</div>
+                    </div>
+                    <div class="profile-info">
+                        <h2>CYCLE</h2>
+                        <p class="profile-title">程序员 | 技术爱好者</p>
+                    </div>
+                </div>
+
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h2>👨‍💻 职业背景</h2>
+                        <p>我是一名经验丰富的程序员，专注于 Web 开发和前端技术。我对新技术充满热情，喜欢探索和实践各种开发工具和框架。</p>
+                    </div>
+
+                    <div class="content-card">
+                        <h2>🎣 兴趣爱好</h2>
+                        <p>除了编程，我还喜欢钓鱼。钓鱼让我能够在繁忙的代码工作中找到内心的平静，享受大自然的宁静。</p>
+                        <p>钓鱼教会了我耐心和专注，这些品质也让我在解决复杂的编程问题时受益匪浅。</p>
+                    </div>
+
+                    <div class="content-card large">
+                        <h2>📚 技术专长</h2>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Web 开发</span>
+                            <span class="skill-tag">DevTools</span>
+                            <span class="skill-tag">前端工程化</span>
+                        </div>
+                    </div>
+
+                    <div class="content-card">
+                        <h2>📞 联系方式</h2>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <span>13812345678</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card large">
+                        <h2>💬 想说的话</h2>
+                        <p>很高兴能在这次 DevFest Workshop 中与大家分享 Chrome DevTools MCP Server 的知识和经验。希望通过这次工作坊，大家能够掌握这一强大的开发工具，在实际项目中应用它来提升开发效率。</p>
+                        <p>技术的学习是一个持续的过程，希望我们能一起在开发的道路上不断进步。也欢迎大家在学习过程中遇到问题时随时与我交流！</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2024 Google DevFest Workshop - Chrome DevTools MCP Server</p>
+        <p>Built with ❤️ by CYCLE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
